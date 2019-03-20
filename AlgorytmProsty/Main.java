@@ -6,7 +6,7 @@ class Main {
     public static void main(String[] args) {
 
      int[] wek = {7,9,12,13,14,14,17};
-     int liczba_szukana = 17;
+     int liczba_szukana = 1;
      int result = 0;
      boolean wynik = false;
      
@@ -20,7 +20,7 @@ class Main {
          }
         }
         if(wynik == false) {
-            System.out.println("Brak liczby szukanej w tablicy KURWA MAC ;-;");
+            System.out.println("Brak liczby szukanej w tablicy");
         }
     }
 }
